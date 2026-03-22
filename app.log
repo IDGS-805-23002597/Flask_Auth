@@ -1,0 +1,22 @@
+2026-03-21 19:29:57,345 - INFO - Aplicación iniciada
+2026-03-21 19:29:57,594 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-21 19:29:57,595 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-21 19:30:26,796 - INFO - Aplicación iniciada
+2026-03-21 19:30:26,982 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-21 19:30:26,982 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-21 19:31:15,519 - INFO - Aplicación iniciada
+2026-03-21 19:31:15,668 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-21 19:31:15,705 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-21 19:32:27,928 - INFO - 127.0.0.1 - - [21/Mar/2026 19:32:27] "GET /security/login HTTP/1.1" 200 -
+2026-03-21 19:32:30,052 - INFO - 127.0.0.1 - - [21/Mar/2026 19:32:30] "GET / HTTP/1.1" 200 -
+2026-03-21 19:33:26,393 - INFO - Aplicación iniciada
+2026-03-21 19:33:26,584 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-21 19:33:26,584 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-21 19:33:46,001 - INFO - Aplicación iniciada
+2026-03-21 19:33:46,167 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-03-21 19:33:46,169 - INFO - [33mPress CTRL+C to quit[0m
