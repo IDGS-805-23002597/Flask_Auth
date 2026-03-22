@@ -6,6 +6,7 @@ from .models import User
 from . import db, user_datastore
 import logging
 from flask_security import current_user
+import uuid
 
 auth= Blueprint('auth', __name__, url_prefix='/security')
 
@@ -51,12 +52,14 @@ def register_post():
         return redirect(url_for('auth.register'))
 
     # Crear nuevo usuario
+    # Crear nuevo usuario
     password_hash = generate_password_hash(password, method='pbkdf2:sha256')
-    
+
     user = user_datastore.create_user(
         name=name,
         email=email,
-        password=password_hash
+        password=password_hash,
+        fs_uniquifier=str(uuid.uuid4())
     )
 
     user_datastore.add_role_to_user(user, 'end-user')

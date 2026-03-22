@@ -19,10 +19,20 @@ db = SQLAlchemy()
 from .models import User, Role
 user_datastore = SQLAlchemyUserDatastore(db, User, Role)
 # Método de inicio de la aplicación
-
+import logging
 
 def create_app():
     
+    def create_app():
+        app = Flask(__name__)
+        logging.info("Aplicación iniciada correctamente")
+    
+
+    logging.basicConfig(
+        filename='app.log',  # archivo donde se guardarán los logs
+        level=logging.INFO,  # nivel de logs
+        format='%(asctime)s - %(levelname)s - %(message)s'
+    )
     # Creamos una instancia de Flask
     app = Flask(__name__)
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
